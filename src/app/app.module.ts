@@ -8,12 +8,14 @@ import { AppRoutingModule} from './app-routing.module';
 
 import {HomeComponent} from './home/app.home';
 import { FormComponent } from './form/app.form';
+import { TableComponent } from './table/app.table';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    FormComponent
+    FormComponent,
+    TableComponent
   ],
   imports: [
     BrowserModule,

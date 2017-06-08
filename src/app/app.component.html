@@ -178,7 +178,7 @@
     <ul class="sidebar-nav">
       <li class="sidebar-nav-heading">Components <span class="sidebar-nav-heading-info"> 附加组件</span></li>
       <li class="sidebar-nav-link">
-        <a  routerLink="/home" routerLinkActive="active">
+        <a routerLink="/home" routerLinkActive="active">
                         <i class="am-icon-home sidebar-nav-link-logo"></i> 首页
                     </a>
       </li>
@@ -204,6 +204,12 @@
 
                     </a>
       </li>
+      <li class="sidebar-nav-link">
+        <a routerLink="/table" routerLinkActive="active">
+                        <i class="am-icon-bar-chart sidebar-nav-link-logo"></i> 文字列表
+
+                    </a>
+      </li>
 
       <li class="sidebar-nav-heading">Page<span class="sidebar-nav-heading-info"> 常用页面</span></li>
       <li class="sidebar-nav-link">
@@ -213,7 +219,7 @@
                     </a>
         <ul class="sidebar-nav sidebar-nav-sub">
           <li class="sidebar-nav-link">
-            <a href="table-list.html">
+            <a routerLink="/table" routerLinkActive="active">
                                 <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 文字列表
                             </a>
           </li>
@@ -248,7 +254,7 @@
 
   <!-- 内容区域 -->
   <div class="tpl-content-wrapper">
-    
+
     <div class="container">
       <router-outlet></router-outlet>
     </div>
