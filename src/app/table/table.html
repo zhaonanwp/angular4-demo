@@ -101,7 +101,7 @@
                                 <button type="button" class="am-btn am-btn-default am-btn-success" (click)="showList=true;"><span class="am-icon-plus"></span> 返回</button>
                             </div>
                         </div>
-                        <form class="am-form tpl-form-border-form tpl-form-border-br" #heroForm="ngForm">
+                        <form class="am-form tpl-form-border-form tpl-form-border-br" #heroForm="ngForm" (ngSubmit)="onSubmit()">
                             <div class="am-form-group">
                                 <label for="user-name" class="am-u-sm-3 am-form-label">标题 <span class="tpl-form-line-small-title">Title</span></label>
                                 <div class="am-u-sm-9">
@@ -121,7 +121,7 @@
                             <div class="am-form-group">
                                 <label for="user-phone" class="am-u-sm-3 am-form-label">作者 <span class="tpl-form-line-small-title">Author</span></label>
                                 <div class="am-u-sm-9">
-                                    <select data-am-selected="{searchBox: 1}" style="display: none;">
+                                    <select data-am-selected="{searchBox: 1}">
                                         <option value="a">-The.CC</option>
                                         <option value="b">夕风色</option>
                                         <option value="o">Orange</option>
@@ -138,7 +138,7 @@
 
                             <div class="am-form-group">
                                 <div class="am-u-sm-9 am-u-sm-push-3">
-                                    <button type="button" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+                                    <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
                                 </div>
                             </div>
                         </form>

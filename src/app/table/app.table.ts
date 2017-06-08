@@ -31,4 +31,9 @@ export class TableComponent {
         this.showList = false;
         this.editModel = Object.assign({}, item)
     }
+    onSubmit() {
+        debugger;
+        this.selectedData = this.editModel;
+        this.showList = true;
+    }
 }
