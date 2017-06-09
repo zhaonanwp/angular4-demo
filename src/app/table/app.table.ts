@@ -18,6 +18,11 @@ export class TableComponent {
             title: '1111',
             author: '2222',
             time: '2017/10/10'
+        },
+        {
+            title: '1111',
+            author: '2222',
+            time: '2017/10/10'
         }
 
     ];
